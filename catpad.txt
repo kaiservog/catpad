@@ -1,0 +1,923 @@
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
+
+Programmers love “plain text”
+Programmers were among the earliest adopters of unprinted text. “Teletype Termin
+
+Programmers write code, which is text, in programs called text editors, and many
+
+While programmers have an obsession with text, journalists have an obsession wit
+
+Text into the newspaper column. Text into the magazine layout. Text on a publish
+
+But I believe journalists should have a more comfortable relationship with text
+
+So let us start with the basics: what, exactly, is “plain text”?
+
+Plain text is “just keystrokes”
+Send a text message to a friend, post a tweet, write an email, draft a letter in
+
+If I wrote a tweet, I could send its contents to a friend as a text, I could for
+
+
+The keyboard of the PDP-1 computer, first produced in 1959. In this design, the
+People don’t often think about plain text that much, but programmers think about
+
+Plain text used to be an American thing
+Huh? Well, digitized plain text originated on American computers built by Americ
+
+One of the first widespread text encodings was ASCII. That stands for “American
+
+
+ASCII chart from a printer manual.
+The precursors to modern personal computing were developing in places like Bell
+
+Write programs that do one thing and do it well. Write programs to work together
+Desktop computing and word processing
+This essay opened with a discussion of desktop publishing, and how text remained
+
+The answer is two-fold:
+
+plain text represented information (aka content), but not style
+the primary output of a desktop computer’s word processing was still a paper pri
+The 80’s were, therefore, in a way, the dark ages of plain text. Though the UNIX
+
+Microsoft, with the rise of Word as the market leader in word processing, condit
+
+
+A Microsoft Word document with the plain text “Hello World” is stored very “unpl
+The web arrives and plain text returns
+When Tim Berners-Lee announced the World Wide Web in 1990, at its core was the n
+
+HyperText is a way to link and access information of various kinds as a web of n
+The web could not be bound to a specific proprietary format for its network effe
+
+Computers may have become popular in America early, but it wasn’t long before th
+
+This led to another standard, almost as plain as ASCII, but with more support fo
+
+UTF-8 became especially popular on the web. Take a look at this graph showing th
+
+
+So, how badly did we need UTF-8? Pretty badly!
+
+As English language speakers, we’re fortunate that our language can be represent
+
+ASCII English: Hello, World!
+ASCII-ized Greek: Geia sou Kosme!
+UTF-8 Greek: Γειά σου Κόσμε!
+This all becomes yet more complicated with the rise of Unicode, because the worl
+
+The web brought us hypertext
+The web adds two primary features to plain text: structure and links. It does th
+
+That is, when I say, this page links to Google, I am actually mixing two things:
+
+<a href="http://google.com">this page links to Google</a>
+In this case, the “<a> tag” represents the structure, and the ASCII text inside
+
+So, that’s markup — and there are lots of markup tags worth learning — but, what
