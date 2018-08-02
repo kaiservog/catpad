@@ -7,11 +7,13 @@ import (
    "path/filepath"
    "bufio"
    "encoding/json"
+   "log"
 )
 
 const BASE_SW_NAME = "catpad"
 const FILE_TEXT_NAME = "catpad.txt"
 const FILE_DATA_NAME = ".data.json"
+const FILE_LOG_NAME = "catpad.log"
 const FILE_CONTENT =
 `
 Welcome to CatPad (Beta)
@@ -25,6 +27,19 @@ be free to edit this text as well to make you own annotation about catpad
 ctrl q   ->  Close this application
 `
 //TODO criar marcador para "cat tips"
+
+func LogConfig() {
+  usr, _ := user.Current()
+  path := filepath.Join(usr.HomeDir, "." + BASE_SW_NAME, FILE_LOG_NAME)
+
+  file, err := os.OpenFile(path, os.O_CREATE | os.O_WRONLY | os.O_APPEND, 0666)
+  if err != nil {
+    log.Fatalln("failed on log")
+  }
+
+  log.SetOutput(file)
+  log.Println("catpad log setup")
+}
 
 func GetTxtContent() string {
   usr, _ := user.Current()

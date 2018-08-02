@@ -10,7 +10,7 @@ import (
     "strconv"
     //"strings"
     //"time"
-//    "unicode/utf8",
+    //"unicode/utf8",
     //"encoding/hex"
   )
 
@@ -121,6 +121,7 @@ func main() {
             } else {
               pos := ce.BookPosition(ce.GetCurrentRowPos(),
                 ce.GetCurrentEditorColPos())
+              log.Println("key pressed: ", firstChar)
               ce.InsertCharacter(firstChar, pos)
               moveCursor(ARROW_RIGHT, &ce)
             }
@@ -365,6 +366,7 @@ func setupCatpad() CatpadEditor {
   inicialContent := GetTxtContent()
 
   ce := NewCatpadEditor(rows, cols, 1, inicialContent)
+  LogConfig()
   return ce
   /** TODO
   fileUpdateTimer := time.NewTimer(5 * time.Second)
