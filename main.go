@@ -78,9 +78,9 @@ func fillKeyMap(keymap map[string]key) {
   keymap["\x1b[3~"] =    DELETE_KEY
   keymap["\x08\x00\x00\x00"] =    BACKSPACE_KEY
   keymap["\x7f\x00\x00\x00"] =    BACKSPACE_KEY
-  //keymap["\n\x00\x00\x00"] =    ENTER_KEY
-  //keymap["\r\n\x00\x00"] =    ENTER_KEY
-  //keymap["\r\x00\x00\x00"] =    ENTER_KEY
+  keymap["\n\x00\x00\x00"] =    ENTER_KEY
+  keymap["\r\n\x00\x00"] =    ENTER_KEY
+  keymap["\r\x00\x00\x00"] =    ENTER_KEY
   keymap["\x11\x00\x00\x00"] = CTRL_Q_KEY
   keymap["\x1b\x00\x00\x00"] = ESC_KEY
 }
@@ -141,18 +141,17 @@ func interpretKey(bs string, keymap map[string]key) key {
 }
 
 func backspaceKey(ce *CatpadEditor) {
-  if ce.Cx == 0 {
+  if ce.GetCurrentEditorColPos() == 0 {
     return
   }
 
   pos := ce.BookPosition(ce.GetCurrentRowPos(), ce.GetCurrentEditorColPos())
-  ce.DeleteCharacter(pos)
-  ce.SetCursorPosition(ce.GetCurrentEditorRowPos()-1, ce.GetCurrentEditorColPos()-1)
+  ce.DeleteCharacter(pos-1)
+  ce.SetCursorPosition(ce.GetCurrentEditorRowPos(), ce.GetCurrentEditorColPos()-1)
 }
 
 func processCtrlKeypress(bs string, ce *CatpadEditor,
   keymap map[string]key) bool {
-
   k := interpretKey(bs, keymap)
   //quitMessage(originalSttyState, "teste " + k.String() + "--" + string(b[1:3]))
   switch (k) {
@@ -172,10 +171,15 @@ func processCtrlKeypress(bs string, ce *CatpadEditor,
         break
     case DELETE_KEY:
         colPos := ce.GetCurrentEditorColPos()
-        deleteChars(ce, colPos+1, colPos+1, ce.GetCurrentEditorRowPos())
+        deleteChars(ce, colPos, colPos)
       break
     case BACKSPACE_KEY:
         backspaceKey(ce)
+      break
+    case ENTER_KEY:
+      pos := ce.BookPosition(ce.GetCurrentRowPos(), ce.GetCurrentEditorColPos())
+      ce.InsertCharacter("\n", pos)
+      ce.SetCursorPosition(ce.GetCurrentEditorRowPos()+1, 0)
       break
     case ESC_KEY, CTRL_Q_KEY:
       ce.SetCursorPosition(0, 0)
@@ -197,14 +201,15 @@ func endKey(ce *CatpadEditor) {
   }
 }
 
-func deleteChars(ce *CatpadEditor, colBegin, colEnd, row int) {
-  if colBegin < 1 || colEnd > MAX_COLUMN {
+func deleteChars(ce *CatpadEditor, colBegin, colEnd int) {
+  if colBegin < 0 || colEnd > MAX_COLUMN {
     return
   }
-  pos := ce.BookPosition(ce.GetCurrentRowPos(), ce.GetCurrentEditorColPos())
+  pos := ce.BookPosition(ce.GetCurrentRowPos(), colBegin)
 
-  ce.DeleteCharacters(colBegin+pos, colEnd+pos)
-  ce.SetCursorPosition(ce.GetCurrentEditorRowPos()-1, ce.GetCurrentEditorColPos()-1)
+  charsToDelete := colEnd - colBegin
+  ce.DeleteCharacters(pos, pos + charsToDelete)
+  //ce.SetCursorPosition(ce.GetCurrentEditorRowPos(), ce.GetCurrentEditorColPos())
 }
 
 func quit() {
