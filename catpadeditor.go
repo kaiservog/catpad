@@ -35,6 +35,9 @@ type CatpadEditor struct {
     Books []string
     CatpadData *CatpadData
     Fresh bool
+
+    //bookmark
+    Bookmarks []Bookmark
 }
 
 func NewCatpadEditor(rows, cols, firstBookRow int, inicialContent string) CatpadEditor {
@@ -110,7 +113,7 @@ func UpdateLineBreaks(book string) string {
   for i:=0; i < len(books); i++ {
       of := overflow(books[i], 60)
       ofLen := len(of)
-      
+
       if ofLen > 0 {
         books[i] = books[i][:60]
 

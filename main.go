@@ -255,8 +255,28 @@ func getTitle(catpadEditor *CatpadEditor) string {
   return titlePadded
 }
 
-func getRowDetails(currentRow int, isLineInFocus bool) string {
+func min(a, b int) int {
+    if a < b {
+        return a
+    }
+    return b
+}
+
+func getRowDetails(ce *CatpadEditor, currentRow int, isLineInFocus bool) string {
   details := fmt.Sprintf("% 10d", currentRow + 1)
+
+  lenBookmarks := len(ce.Bookmarks)
+  for i := 0; i < lenBookmarks; i++ {
+    if ce.Bookmarks[i].Row == currentRow + 1 {
+      text := ce.Bookmarks[i].Label + "          "
+      text = text[:10]
+      if isLineInFocus {
+        return "\033[38;5;232m\033[43m\033[1m" + text +"|\033[0m"
+      } else {
+        return "\033[38;5;232m\033[43m" + text +"\033[0m|"
+      }
+    }
+  }
 
   if isLineInFocus {
     return "\033[1m\033[4m"+details+"\033[0m\033[0m|"
@@ -275,7 +295,11 @@ func editorDrawRows(catpadEditor *CatpadEditor, sb *bytes.Buffer) {
   currentRow := 0
 
   sb.WriteString(SCREEN_CLEAN_LINE + "\r\n")
-  details := getRowDetails(currentRow+catpadEditor.RowsRolled, currentRow == currentRowPos)
+  details := getRowDetails(
+    catpadEditor,
+    currentRow+catpadEditor.RowsRolled,
+    currentRow == currentRowPos)
+
   sb.WriteString(details)
   currentRow++
   bookLen := catpadEditor.BookLen()
@@ -294,7 +318,10 @@ func editorDrawRows(catpadEditor *CatpadEditor, sb *bytes.Buffer) {
 
     if c == "\n" || c == "\r" {
       if rollRow == catpadEditor.RowsRolled {
-        details := getRowDetails(currentRow+rollRow, currentRow == currentRowPos)
+        details := getRowDetails(
+          catpadEditor,
+          currentRow+catpadEditor.RowsRolled,
+          currentRow == currentRowPos)
 
         sb.WriteString(SCREEN_CLEAN_LINE + "\r\n" + details)
         currentRow++
@@ -371,6 +398,9 @@ func setupCatpad() CatpadEditor {
   inicialContent := GetTxtContent()
 
   ce := NewCatpadEditor(rows, cols, 1, inicialContent)
+  bookmark := Bookmark{Label: "CP Tips", Row: 1}
+  ce.Bookmarks = []Bookmark{bookmark}
+
   LogConfig()
   return ce
   /** TODO
